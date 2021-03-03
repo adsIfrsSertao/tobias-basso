@@ -16,8 +16,9 @@
             <h5 class="my-0 mr-md-auto font-weight-normal">LaDiversité</h5>
             <nav class="my-2 my-md-0 mr-md-3">
             </nav>
-            <a class="btn btn-outline-primary" href="#">Cadastro</a>
+            <img src="logo.jpeg">
         </div>
+
 
         @yield('conteudo')
     </div>
