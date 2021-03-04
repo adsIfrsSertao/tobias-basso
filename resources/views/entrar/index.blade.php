@@ -6,19 +6,22 @@
     <form method="post">
         @csrf
         <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" required class="form-control">
+            <label for="email" style="color: #1d643b"><b>E-mail</b></label>
+            <input type="email" name="email" id="email" class="form-control">
         </div>
         <div class="form-group">
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password" required min="1" class="form-control">
+            <label for="password" style="color: #1d643b"><b>Senha</b></label>
+            <input type="password" name="password" id="password" class="form-control">
         </div>
-        <button type="submit" class="btn btn-success">
+        <button type="submit" class="btn btn-success" style="background-color: #1d643b">
             Entrar
         </button>
 
-        <button type="submit" class="btn btn-success">
+        <button type="submit" class="btn btn-success" style="background-color: #1d643b" a href="/registrar">
             Registrar-se
         </button>
     </form>
 @endsection
+@section('rodape')
+@endsection
+
