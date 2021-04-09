@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2dd7d2adb3.js" crossorigin="anonymous"></script>
 
 
 <!-- Styles -->
@@ -74,42 +75,59 @@
 </div>
 
 
+<div class="container">
+    <div class="row">
+<div class="p-5 mb-4 bg-light rounded-3">
+    <a href="/contas"> <i class="fas fa-backward" style="color: #1d643b; width: 10px"></i> <h6 style="color: #1d643b">Voltar</h6></a>
+    <div class="container-fluid py-5" style="">
+        <h1 class="display-5 fw-bold" style="color: #1d643b">Contas</h1>
+        <p class="col-md-8 fs-4" ><h4>Insira os dados abaixo para adicionar uma nova conta: </h4></p>
+    </div>
+</div>
+    </div>
+</div>
 
-<a href="/produtos"> <div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%;background-color: #1d643b">
-    <div class="card-header"><h4>Produtos</h4></div>
-    <div class="card-body">
-        <h5 class="card-title">Clique aqui para verificar seus produtos em estoque</h5>
-    </div>
-</div>
-</a>
-<a href="/valores"> <div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%; background-color: #1d643b">
-        <div class="card-header"><h4>Valores recebidos</h4></div>
-    <div class="card-body">
-        <h5 class="card-title">Clique aqui para verificar seus valores recebidos</h5>
-    </div>
-</div>
-</a>
-<a href="/contas"><div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%; background-color: #1d643b">
-    <div class="card-header"><h4>Contas</h4></div>
-    <div class="card-body">
-        <h5 class="card-title">Clique aqui para verificar suas contas</h5>
-    </div>
-</div>
-</a>
-<a href="/relatorios"> <div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%; background-color: #1d643b">
-        <div class="card-header"><h4>Relatórios</h4></div>
-        <div class="card-body">
-            <h5 class="card-title">Clique aqui para gerar relatórios</h5>
+<div class="container">
+    <div class="row">
+
+
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="dataVenc" style="color: #1d643b"><b>Data de vencimento*</b></label>
+                <input type="date" name="dataVenc" id="dataVenc" required class="form-control">
+            </div>
         </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="dataPgto" style="color: #1d643b"><b>Data de pagamento</b></label>
+                <input type="date" name="dataPgto" id="dataPgto" class="form-control">
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="descricao" style="color: #1d643b"><b>Descrição*</b></label>
+                <input type="text" name="descricao" id="descricao" required class="form-control">
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="valor" style="color: #1d643b"><b>Valor*</b></label>
+                <input type="number" name="valor" id="valor" required class="form-control">
+            </div>
+        </div>
+
+
     </div>
-</a>
+</div>
+
+<div class="container">
+
+       <a href=""> <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2" style=" background-color: #1d643b; text-align: center">Adicionar conta</button></a>
+
+</div>
 
 
 
 
 
 
-
-
-
-</body>

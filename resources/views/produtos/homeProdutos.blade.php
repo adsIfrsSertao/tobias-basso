@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2dd7d2adb3.js" crossorigin="anonymous"></script>
 
 
 <!-- Styles -->
@@ -73,43 +74,21 @@
     </div>
 </div>
 
-
-
-<a href="/produtos"> <div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%;background-color: #1d643b">
-    <div class="card-header"><h4>Produtos</h4></div>
-    <div class="card-body">
-        <h5 class="card-title">Clique aqui para verificar seus produtos em estoque</h5>
+<div class="p-5 mb-4 bg-light rounded-3" style="margin-left: 29%;">
+    <a href="/home"> <i class="fas fa-backward" style="color: #1d643b; width: 10px"></i> <h6 style="color: #1d643b">Voltar</h6></a>
+    <div class="container-fluid py-5" style="">
+        <h1 class="display-5 fw-bold" style="color: #1d643b">Produtos</h1>
+        <p class="col-md-8 fs-4" ><h4>Aqui você vai conseguir adicionar, alterar e remover seus produtos</h4></p>
     </div>
 </div>
-</a>
-<a href="/valores"> <div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%; background-color: #1d643b">
-        <div class="card-header"><h4>Valores recebidos</h4></div>
-    <div class="card-body">
-        <h5 class="card-title">Clique aqui para verificar seus valores recebidos</h5>
-    </div>
-</div>
-</a>
-<a href="/contas"><div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%; background-color: #1d643b">
-    <div class="card-header"><h4>Contas</h4></div>
-    <div class="card-body">
-        <h5 class="card-title">Clique aqui para verificar suas contas</h5>
-    </div>
-</div>
-</a>
-<a href="/relatorios"> <div class="card text-white mb-3" style="max-width: 65rem ;margin-left: 30%; background-color: #1d643b">
-        <div class="card-header"><h4>Relatórios</h4></div>
-        <div class="card-body">
-            <h5 class="card-title">Clique aqui para gerar relatórios</h5>
-        </div>
-    </div>
-</a>
+
+<p>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" style="margin-left: 23%; background-color: #1d643b; width: 14%">Adicionar novos produtos</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" style="width: 14%;background-color: #1d643b;">Editar produtos</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2" style="width: 14%; background-color: #1d643b; ">Excluir produtos</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2" style="width: 14%; background-color: #1d643b; ">Consultar produtos</button>
+</p>
 
 
 
 
-
-
-
-
-
-</body>

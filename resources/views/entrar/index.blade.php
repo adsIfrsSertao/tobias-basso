@@ -13,13 +13,13 @@
             <label for="password" style="color: #1d643b"><b>Senha</b></label>
             <input type="password" name="password" id="password" class="form-control">
         </div>
-        <button type="submit" class="btn btn-success" style="background-color: #1d643b">
+        <a href="/home" class="btn btn-secondary mt-3" style="background-color: #1d643b">
             Entrar
-        </button>
+        </a>
 
-        <button type="submit" class="btn btn-success" style="background-color: #1d643b" a href="/registrar">
+        <a href="/registrar" class="btn btn-secondary mt-3" style="background-color: #1d643b">
             Registrar-se
-        </button>
+        </a>
     </form>
 @endsection
 @section('rodape')

@@ -7,21 +7,19 @@ use Illuminate\Support\Facades\Auth;
 
 class EntrarController extends Controller
 {
-    public function index ()
+    public function index()
     {
         return view('entrar.index');
     }
 
-    public function entrar (Request $request)
+    public function entrar(Request $request)
     {
-      if (!Auth::attempt($request->only(['email', 'password']))) {
-          return redirect()
-              ->back()
-              ->withErrors('Usuário e/ou senha incorretos');
-      }
+        if (!Auth::attempt($request->only(['email', 'password']))) {
+            return redirect()
+                ->back()
+                ->withErrors('Usuário e/ou senha incorretos');
+        }
 
-      return redirect() ->route('home');
+        return redirect()->route('listar_series');
     }
-
-
 }
